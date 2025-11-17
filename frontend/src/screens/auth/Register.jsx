@@ -20,7 +20,7 @@ function Register() {
         toast.success("Register successfully");
         navigate("/");
       } else {
-        toast.error("Something went wronge");
+        toast.error("Something went wrong (jatin)");
       }
     } catch (ex) {
       console.log(ex);
