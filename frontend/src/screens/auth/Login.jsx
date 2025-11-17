@@ -16,7 +16,7 @@ function Login() {
   const signin = async () => {
     try {
       const result = await loginBlogger(email, password);
-      console.log("Testing ", result);
+      console.log("Testing Uttam", result);
       if (result.status) {
         localStorage.setItem("token", JSON.stringify(result.data.token));
         setUser({
